@@ -12,7 +12,7 @@ body {
 }
 
 .header-section {
-    border: 2px solid blue;
+
     margin: 0 auto;
     max-width: 1250px;
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 .nav-container {
-    border: 2px solid blue;
+
     min-height: 20px;
     display: flex;
     align-items: center;
@@ -68,7 +68,10 @@ body {
     border-radius: 7px;
     max-width: 1250px;
     margin: 0 auto;
-    background-color: rgb(245, 245, 245)
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    padding: 10px;
+
 }
 
 .text-container {
@@ -117,7 +120,7 @@ button {
 
 .Discount {
     position: absolute;
-    background-color: rgb(128, 128, 16);
+    background-color: rgb(164, 164, 90);
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -126,7 +129,7 @@ button {
     align-items: center;
     display: flex;
     bottom: 79%;
-    left: 69%;
+    left: 80%;
 }
 
 /* products style */
@@ -137,23 +140,20 @@ button {
 
 .grid-container {
     min-width: 400px;
-    border: 2px solid red;
+
     display: grid;
     /* display: flex; */
     gap: 20px;
-    justify-content: space-between; 
-    grid-template-columns: repeat(3,1fr);
-   
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .single-product {
-    border: 2px solid blue;
-    /* display: grid; */
-    
     background-color: rgb(229, 236, 237);
     border-radius: 10px;
     padding: 10px;
-    
+
 }
 
 .single-product img {
@@ -180,3 +180,22 @@ button {
     width: 28px;
 
 }
+
+.gallery-section {
+
+    max-width: 1250px;
+    flex-basis: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
+    background-color: aliceblue;
+}
+
+.single-gallery img {
+   width: 300px;
+   border: 2px solid black;
+   border-radius: 10px;
+   
+}
+
