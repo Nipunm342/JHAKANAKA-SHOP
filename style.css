@@ -193,9 +193,24 @@ button {
 }
 
 .single-gallery img {
-   width: 300px;
-   border: 2px solid black;
-   border-radius: 10px;
-   
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
 
+footer p {
+    text-align: center;
+    background-color: #9376e0;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    gap: 8px;
+}
+
+footer img {
+    width: 30px;
+   
+}
